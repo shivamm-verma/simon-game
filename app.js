@@ -67,7 +67,7 @@ function checkAns(idx) {
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout(function () {
             document.querySelector("body").style.backgroundColor = "white";
-        }, 150);
+        }, 200);
         console.log("wrong value");
         let h3 = document.createElement("h3")
         h2.append(h3)
