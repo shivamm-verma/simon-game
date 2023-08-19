@@ -69,12 +69,15 @@ h2 {
     border-radius: 40px;
 }
 
+/* updating */
 .start-btn:hover {
     transition: 0.5s;
-    background-color: black;
-    color: red;
+    background-color: #ED7B7B;
+    color: black;
     font-weight: 1000;
-    box-shadow: 5px 10px 5px black;
+    box-shadow: 5px 5px 100px 2px #f99b45;
+    border: 3px solid black;
+    /* width: 250px; */
 }
 
 /* HighScore button css */
@@ -87,6 +90,7 @@ h2 {
     margin: auto;
     margin-top: 0.7rem;
 }
+
 .highscore:hover {
     transition: 0.5s;
     color: white;
@@ -97,11 +101,18 @@ h2 {
     * {
         margin: 10px auto;
     }
+
     .btn {
         height: 150px;
         width: 150px;
         border: 7px solid black;
         border-radius: 20px;
         margin: 0.5rem;
+    }
+
+    /* updating */
+    .start-btn:hover {
+        width: 55%;
+        border-radius: 15px;
     }
 }
